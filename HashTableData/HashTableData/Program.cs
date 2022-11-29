@@ -34,7 +34,12 @@
 
             }
 
+            Console.WriteLine("-------------------");
+            list.Remove(18);
+                string hash1 = list.Get(18);
+                Console.WriteLine("18th index value {0} ", hash1);
 
+            
 
 
             Console.WriteLine(list.GetHashCode()); 
